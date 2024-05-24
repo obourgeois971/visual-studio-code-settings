@@ -1,0 +1,157 @@
+{
+  "window.zoomLevel": 0,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "prettier.semi": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": false,
+  "editor.renderWhitespace": "trailing",
+  "editor.linkedEditing": true,
+  "editor.occurrencesHighlight": "off",
+  "editor.suggest.insertMode": "replace",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.fontFamily": "'JetBrains Mono',  Consolas, 'Courier New', monospace",
+
+  "files.autoSave": "onFocusChange",
+  "files.defaultLanguage": "markdown",
+
+  "explorer.autoReveal": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmUndo": "default",
+
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.editor.enablePreview": false,
+
+  "emmet.triggerExpansionOnTab": true,
+
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "[Tokyo Night]": {
+      "editor.selectionBackground": "#3D59A1",
+      "editor.selectionHighlightBackground": "#3D59A1"
+    }
+  },
+
+  "gitlens.currentLine.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+
+  "multiCommand.commands": [
+    {
+      "command": "multiCommand.makeRoom",
+      "sequence": [
+        "workbencj.action.toggleSidebarVisibility",
+        "workbencj.action.toggleActivityBarVisibility"
+      ]
+    }
+  ],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+  // //TERMINAL
+  // // "terminal.integrated.fontSize": 18,
+  // //EDITOR
+  // // "editor.formatOnSave": true,
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": "explicit"
+  // },
+  // "editor.guides.bracketPairs": "active",
+  // "editor.cursorBlinking": "expand",
+  // "editor.minimap.enabled": false,
+  // // "editor.fontWeight": "normal",
+  // "editor.renderWhitespace": "none",
+  // "editor.renderControlCharacters": false,
+  // "scm.inputFontFamily": "Jetbrains Mono",
+  // "editor.inlayHints.fontFamily": "default",
+  // "editor.glyphMargin": false,
+  // "editor.lineNumbers": "on",
+  // "editor.tokenColorCustomizations": {
+  //   "[Monokai Pro (Filter Octagon)]": {
+  //     "textMateRules": [
+  //       {
+  //         "name": "JAX tags",
+  //         "scope": ["entity.name.tag.js.jsx support.class.component.js.jsx"],
+  //         "settings": {
+  //           "foreground": "#3fe265"
+  //         }
+  //       }
+  //     ]
+  //   }
+  // },
+  // "editor.fontLigatures": true,
+  // "editor.hideCursorInOverviewRuler": true,
+  // "editor.overviewRulerBorder": false,
+  // // WORKBENCH
+  // "workbench.iconTheme": "vscode-icons",
+  // "workbench.layoutControl.enabled": false,
+  // "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+  // "workbench.startupEditor": "none",
+  // // "workbench.colorCustomizations": {
+  // // "activityBar.background": "#1E1F2C",
+  // // "activityBar.inactiveForeground": "#8589be",
+  // // "activityBar.activeBackground": "#b1b5ff",
+  // // "activityBar.foreground": "#1E1F2C",
+  // // "activityBar.activeBorder": "#ffd102",
+  // // "editorCursor.foreground": "#eaff00",
+  // // "terminalCursor.foreground": "#eefb02",
+  // // "editorOverviewRuler.addedForeground": "#0000",
+  // // "editorOverviewRuler.modifiedForeground": "#0000",
+  // // "editorOverviewRuler.deletedForeground": "#0000",
+  // // "editorGutter.addedBackground": "#0000",
+  // // "editorGutter.modifiedBackground": "#0000",
+  // // "editorGutter.deletedBackground": "#0000"
+  // // },
+  // // "[javascript]": {
+  // //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // // },
+  // //GIT
+  // "git.autofetch": true,
+  // "git.enableSmartCommit": true,
+  // //FILES
+  // "files.associations": {
+  //   "*.env": "shellscript"
+  // },
+  // //VSICONS
+  // "vsicons.dontShowNewVersionMessage": true,
+  // // "[javascriptreact]": {
+  // //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // // },
+  // "window.zoomLevel": 1,
+  // "prettier.bracketSameLine": true,
+  // "prettier.endOfLine": "auto",
+
+  // "workbench.colorCustomizations": {
+  //   "tab.border": "#20222c", // colour of the border between opened tabs
+  //   "tab.activeBackground": "#20222c", // backgroud colour of the active file tab
+  //   "tab.inactiveBackground": "#20222c", // bacground colour of inactive file tabs
+  //   "editorGroupHeader.tabsBackground": "#20222c", // background colour of the entire tab container that lives at the top
+  //   "editor.background": "#20222c", // backgroud colour of the code editor
+  //   "sideBar.background": "#191b22", // background colour of the sidebar
+  //   // "editorIndentGuide.activeBackground": "#ffffff07", // colour of the indent guides
+  //   "editor.lineHighlightBackground": "#20222c", // border colour of the active line
+  //   // "editorIndentGuide.background": "#ffffff07", // colour of the active line
+  //   "sideBarSectionHeader.background": "#191b22" // colour of the tabs in sidebar
+  // },
+  // // "editor.renderWhitespace": "none", // removes whitespace chars
+  // // "editor.hideCursorInOverviewRuler": true, // hides cursor mark in the overview ruler
+  // "editor.folding": false, // removes the folding feature
+  // // "editor.glyphMargin": false, // removes the space used mainly for debugging indicators
+  // "explorer.openEditors.visible": 0, // removes the activity bar (the 4 icons at the left of the screen), so now you will have to open the explorer, git, debugger and extension with shortcuts or through the Command Palette
+  // "workbench.statusBar.visible": false,
+  // // "editor.overviewRulerBorder": false,
+  // "workbench.editor.showIcons": true, // removes icon from opened files in tabs
+  // "editor.occurrencesHighlight": "off",
+  // "workbench.activityBar.location": "hidden",
+  // "prettier.configPath": "always",
+  // "prettier.enable": false,
+  // "prettier.singleQuote": true,
+  // "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
